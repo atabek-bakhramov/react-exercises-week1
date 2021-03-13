@@ -1,0 +1,16 @@
+.counterContainer {
+  height: 5rem; 
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterContainer > * {
+  margin: 0 1rem;
+}
+
+.buttonAdd {
+  padding: 0.05rem 0.5rem;
+}
